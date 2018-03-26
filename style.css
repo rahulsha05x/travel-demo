@@ -1,0 +1,51 @@
+body{
+background-color:#ffdeab;
+margin:0;
+padding:0;
+}
+
+.para-border{
+border:2px solid #ff0000;
+max-width:90%;
+
+padding:12px;
+text-indent:justify;
+text-align:centre;
+display:none;
+position:absolute;
+margin-top:35px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 25px 0 0 0;
+    background-color:black;
+    height: 50px;
+    margin:auto;
+    
+}
+
+li {
+display:inline;
+border-right:1px solid #ffffff;
+padding: 5px;
+text-align:centre;
+
+}
+
+li>a{
+text-decoration:none;
+color:white;
+}
+
+
+
+li a:hover {
+	background-color:red;
+	
+}
+.drpdwn:hover .para-border{
+	
+	display:block;
+}
