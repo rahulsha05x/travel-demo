@@ -191,28 +191,28 @@ li>a {
     background-clip: content-box;
     padding: 15px;
     
+    
 }
 .mountain-1 {
     flex-basis: 30%;
-    min-height:100vh;
     background-image: url('./images/mountain1.jpg');
-    
+    min-height: 60vh;
 }
 .mountain-2 {
     flex-basis: 65%;
-    min-height:100vh;
     background-image: url('./images/mountain2.jpg');
+    min-height: 60vh;
     
 }
 .mountain-3 {
     flex-basis: 65%;
-    min-height:100vh;
     background-image: url('./images/mountain3.jpg');
+    min-height: 60vh;
 }
 .mountain-4 {
     flex-basis: 30%;
-    min-height:100vh;
     background-image: url('./images/mountain4.jpg');
+    min-height: 60vh;
     
 }
 .tour-packages {
